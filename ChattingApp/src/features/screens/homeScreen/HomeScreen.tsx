@@ -1,14 +1,21 @@
-import React, { Component } from 'react';
-import { Text, View } from 'react-native';
-
+import React, {Component} from 'react';
+import {Text, View} from 'react-native';
+import CicleImage from '../../../common/components/circleImageComponent/CircleImage';
 export class HomeScreen extends Component {
   render() {
     return (
-      <View style={{backgroundColor: 'white', flex: 1}}>
+      <View
+        style={{
+          backgroundColor: '#E5E5E5',
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text> textInComponent </Text>
+        <CicleImage />
       </View>
-    )
+    );
   }
 }
 
-export default HomeScreen
+export default HomeScreen;

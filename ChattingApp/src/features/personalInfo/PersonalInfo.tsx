@@ -4,14 +4,14 @@ import personalInfoStyles from './PersonalInfoStyle';
 import CicleImage from '../../common/components/circleImageComponent/CircleImage';
 class PersonalInfo extends React.Component {
   render() {
+    const {item} = this.props;
     return (
       <View>
         <View style={personalInfoStyles.bodyTop}>
-          <CicleImage />
-
-          <Text style={personalInfoStyles.titleName}>Purnima Khan</Text>
+          <CicleImage url={item.avatar} />
+          <Text style={personalInfoStyles.titleName}>{item.name}</Text>
           <Text style={personalInfoStyles.titleAddressSchool}>
-            Guidhali School of Music and Drama
+          {item.quote}
           </Text>
           <Text style={personalInfoStyles.address}> London, UK </Text>
         </View>

@@ -5,7 +5,7 @@ class FeedAPI {
   constructor() {}
   getProfileAPI(feedId) {
     return new Promise((resolve, reject) => {
-      fetch(`${BASE_API}${FeedsApiEndpoints.v1}/${feedId}`)
+      fetch(`${BASE_API}${FeedsApiEndpoints.v1.feeds}/${feedId}`)
         .then(response => response.json())
         .then(json => {
           resolve(json);

@@ -4,6 +4,9 @@ const personalInfoStyles = StyleSheet.create({
   bodyTop: {
     backgroundColor: Color.mainColor,
     alignItems: 'center',
+    textAlignVertical: 'center',
+
+    // justifyContent: 'center',
   },
   titleName: {
     fontWeight: 'bold',
@@ -13,6 +16,8 @@ const personalInfoStyles = StyleSheet.create({
   titleAddressSchool: {
     color: '#9CB1D8',
     fontSize: 16,
+    width: 250,
+    paddingLeft: 20,
   },
   address: {
     color: '#9CB1D8',

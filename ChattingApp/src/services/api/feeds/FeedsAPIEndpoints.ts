@@ -1,6 +1,6 @@
 const FeedsApiEndpoints = {
   v1: {
-    feeds: '/profile',
+    feeds: '/profiles',
   },
   
 };

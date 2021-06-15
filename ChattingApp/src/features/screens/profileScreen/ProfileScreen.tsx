@@ -10,19 +10,28 @@ import PicturesAlbum from '../../pictureAlbum/PicturesAlbum';
 import ProfileController from './ProfileController';
 
 class ProfileScreen extends Component {
-  
+  constructor(props) {
+    super(props);
+    this.state = {
+      profile: [],
+    };
+  }
   componentDidMount() {
     const profilecontroller = new ProfileController();
-    profilecontroller.getProfileFromAPI(1).then(feed => console.log(feed))
-    console.log()
+    profilecontroller.getProfileFromAPI(1).then(feed => {
+      this.setState({
+        profile: feed,
+      });
+    });
   }
   render() {
+    const {profile} = this.state;
     return (
       <View style={profileStyles.container}>
         <TitleName />
         <View style={profileStyles.body}>
-          <PersonalInfo />
-          <FollowInfo />
+          <PersonalInfo item={profile} />
+          <FollowInfo item={profile} />
           <View style={profileStyles.editButton}>
             <EditInfo />
             <ButtonChangeInfo />

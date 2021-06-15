@@ -5,6 +5,7 @@ import Menu from '../../common/components/menuComponent/Menu';
 import titleNameStyle from './TitleNameStyle';
 
 class TitleName extends React.Component {
+
   render() {
     return (
       <View style={titleNameStyle.topBar}>

@@ -2,13 +2,14 @@ import React from 'react';
 import { View, Image } from 'react-native';
 import stylesImage from './CircleImageStyle';
 
-const CicleImage = () => {
+const CicleImage = props => {
+  const {url} = props;
   return (
     <View>
       <Image
         style={stylesImage.circle}
         source={{
-          uri: 'https://thumbs.dreamstime.com/z/bearded-man-s-face-hipster-character-fashion-silhouette-avata-bearded-man-s-face-hipster-character-fashion-silhouette-avatar-105106856.jpg',
+          uri: url,
         }}
       />
     </View>

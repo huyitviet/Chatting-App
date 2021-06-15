@@ -2,6 +2,6 @@
  * @format
  */
 import {AppRegistry} from 'react-native';
-import HomeScreen from './src/features/screens/homeScreen/HomeScreen';
+import Profile from './src/features/screens/profileScreen/ProfileScreen';
 import {name as appName} from './app.json';
-AppRegistry.registerComponent(appName, () => HomeScreen);
+AppRegistry.registerComponent(appName, () => Profile);

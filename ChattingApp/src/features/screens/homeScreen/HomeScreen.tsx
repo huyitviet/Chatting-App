@@ -1,10 +1,10 @@
-
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Button, Text, View } from 'react-native';
+
 import CircleTouchableOpacity from '../../../common/components/circleTouchablOpacity/CircleTouchableOpacity';
 import FriendOnline from '../../../common/components/listFriend/ListFriend';
-import ListFriendPost from '../../componentHome/listFriendPost/ListFriendPost'
-export class HomeScreen extends Component {
+import ListFriendPost from '../../componentHome/listFriendPost/ListFriendPost';
+export default class HomeScreen extends Component {
 
   render() {
     return (

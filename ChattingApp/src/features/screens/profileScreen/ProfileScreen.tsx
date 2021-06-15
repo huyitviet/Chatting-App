@@ -10,10 +10,11 @@ import PicturesAlbum from '../../pictureAlbum/PicturesAlbum';
 import ProfileController from './ProfileController';
 
 class ProfileScreen extends Component {
-
+  
   componentDidMount() {
     const profilecontroller = new ProfileController();
-    profilecontroller.getProfileFromAPI(1); 
+    profilecontroller.getProfileFromAPI(1).then(feed => console.log(feed))
+    console.log()
   }
   render() {
     return (

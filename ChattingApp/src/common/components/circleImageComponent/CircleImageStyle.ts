@@ -1,10 +1,10 @@
 import {StyleSheet} from 'react-native';
 const stylesImage = StyleSheet.create({
   circle: {
-    width: 100,
-    height: 100,
+    width: 126,
+    height: 126,
     borderColor: 'white',
-    borderRadius: 100 / 2,
+    borderRadius: 126 / 2,
     borderWidth: 4,
   },
 });

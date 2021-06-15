@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
 import CicleImage from '../../../common/components/circleImageComponent/CircleImage';
-export class HomeScreen extends Component {
+export default class HomeScreen extends Component {
   render() {
     return (
       <View
@@ -17,5 +17,3 @@ export class HomeScreen extends Component {
     );
   }
 }
-
-export default HomeScreen;

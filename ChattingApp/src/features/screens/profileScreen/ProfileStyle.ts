@@ -5,12 +5,6 @@ const profileStyles = StyleSheet.create({
     backgroundColor: Color.mainColor,
     flex: 1,
   },
-  topBar: {
-    backgroundColor: Color.mainColor,
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingTop: 20,
-  },
   body: {
     flex: 1,
     backgroundColor: Color.mainColor,
@@ -18,41 +12,10 @@ const profileStyles = StyleSheet.create({
     paddingTop: 10,
     flexDirection: 'column',
   },
-  bodyTop: {
-    backgroundColor: Color.mainColor,
-    alignItems: 'center',
-  },
-  bodyMiddle: {
-    backgroundColor: Color.mainColor,
-    flex: 1,
-    flexDirection: 'row',
-  },
   bottom: {
     flex: 1,
     paddingTop: 20,
     backgroundColor: Color.mainColor,
-  },
-  circleImageProfile: {
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  titleName: {
-    fontWeight: 'bold',
-    paddingTop: 5,
-    fontSize: 18,
-  },
-  titleAddressSchool: {
-    color: '#9CB1D8',
-    fontSize: 16,
-  },
-  address: {
-    color: '#9CB1D8',
-    paddingBottom: 20,
-  },
-  titleProfile: {
-    padding: 15,
-    fontSize: 28,
-    color: '#3570EC',
   },
   input: {
     height: 30,
@@ -66,15 +29,15 @@ const profileStyles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 20,
   },
-  touchable2: {
-    height: 35,
-    width: 130,
-    backgroundColor: '#DA5AFA',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderRadius: 5,
-  },
+  // touchable2: {
+  //   height: 35,
+  //   width: 130,
+  //   backgroundColor: '#DA5AFA',
+  //   flexDirection: 'row',
+  //   alignItems: 'center',
+  //   justifyContent: 'center',
+  //   borderRadius: 5,
+  // },
   touchable3: {
     height: 28,
     width: 100,
@@ -92,16 +55,7 @@ const profileStyles = StyleSheet.create({
     alignItems: 'center',
     paddingLeft: 2,
   },
-  touchableImage: {
-    height: 20,
-    width: 20,
-    backgroundColor: '#DA5AFA',
-  },
-  stateFollow: {
-    flex: 1,
-    backgroundColor: Color.mainColor,
-    alignItems: 'center',
-  },
+
   editButton: {
     flex: 2,
     backgroundColor: Color.mainColor,

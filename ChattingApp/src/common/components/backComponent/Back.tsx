@@ -1,15 +1,15 @@
 import React from 'react';
 import {Text, View, TouchableOpacity, Image} from 'react-native';
-import menuStyles from './MenuStyle';
+import backStyles from './BackStyle';
 
-class Menu extends React.Component {
+class Back extends React.Component {
   render() {
     return (
       <View>
         <TouchableOpacity>
           <Image
-            style={menuStyles.touch}
-            source={{uri: 'https://image.flaticon.com/icons/png/512/483/483345.png'}}
+            style={backStyles.touch}
+            source={{uri: 'https://image.flaticon.com/icons/png/128/2223/2223615.png'}}
           />
         </TouchableOpacity>
       </View>
@@ -17,4 +17,4 @@ class Menu extends React.Component {
   }
 }
 
-export default Menu;
+export default Back;

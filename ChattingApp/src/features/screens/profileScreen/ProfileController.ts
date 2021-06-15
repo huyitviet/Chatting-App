@@ -1,6 +1,6 @@
 import FeedAPI from '../../../services/api/feeds/index';
 class getFeedsProfile {
-  //constructor() {}
+  constructor() {}
 
   getProfileFromAPI(feedId) {
     return new Promise((resolve, reject) => {

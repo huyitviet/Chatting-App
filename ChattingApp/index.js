@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  * @format
  */
@@ -8,10 +7,5 @@ import { name as appName } from './app.json';
 AppRegistry.registerComponent(appName, () => HomeScreen);
 
 
-=======
-import {AppRegistry} from 'react-native';
-import App from './src/navigation/App';
-import Profile from './src/features/screens/profileScreen/ProfileScreen';
-import {name as appName} from './app.json';
-AppRegistry.registerComponent(appName, () => Profile);
->>>>>>> ba3e863db9560294d8de4cc729d8b20081fa122e
+// sao conflic lắm thế, sửa hết đâu  k hieu, mấy file như này sửa hết đi.Do 2 người cùng động vào, nên nó bị, bh chọn cái nào l
+// lấy cái nào ban dau la cua minh chay dc profile roi gio can lay home de lam na

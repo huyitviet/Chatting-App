@@ -9,9 +9,7 @@ class PersonalInfo extends React.Component {
         <View style={personalInfoStyles.bodyTop}>
           <CicleImage />
 
-          <Text style={personalInfoStyles.titleName}>
-            Purnima Khan
-          </Text>
+          <Text style={personalInfoStyles.titleName}>Purnima Khan</Text>
           <Text style={personalInfoStyles.titleAddressSchool}>
             Guidhali School of Music and Drama
           </Text>

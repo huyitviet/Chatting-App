@@ -6,11 +6,16 @@ const titleNameStyle = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingTop: 20,
+    paddingLeft: 10,
+    paddingRight: 10,
+    flexDirection: 'row',
   },
   titleProfile: {
-    padding: 15,
+    flex: 1,
+    padding: 20,
     fontSize: 28,
     color: '#3570EC',
+    paddingLeft: 125
   },
 });
 export default titleNameStyle;

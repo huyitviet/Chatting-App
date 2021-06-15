@@ -18,5 +18,6 @@ const personalInfoStyles = StyleSheet.create({
     color: '#9CB1D8',
     paddingBottom: 20,
   },
+  
 });
 export default personalInfoStyles;

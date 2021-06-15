@@ -6,15 +6,15 @@ class FollowInfo extends React.Component {
     return (
       <View style={followInfoStyles.bodyMiddle}>
         <View style={followInfoStyles.stateFollow}>
-          <Text style={followInfoStyles.titleAddressSchool}>Events</Text>
+          <Text style={followInfoStyles.follower}>Events</Text>
           <Text style={followInfoStyles.titleName}>456</Text>
         </View>
         <View style={followInfoStyles.stateFollow}>
-          <Text style={followInfoStyles.titleAddressSchool}>Folowers</Text>
+          <Text style={followInfoStyles.follower}>Folowers</Text>
           <Text style={followInfoStyles.titleName}>602</Text>
         </View>
         <View style={followInfoStyles.stateFollow}>
-          <Text style={followInfoStyles.titleAddressSchool}>Following</Text>
+          <Text style={followInfoStyles.follower}>Following</Text>
           <Text style={followInfoStyles.titleName}>290</Text>
         </View>
       </View>

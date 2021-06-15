@@ -5,24 +5,32 @@ import TitleName from '../../profileTitle/TitleName';
 import PersonalInfo from '../../personalInfo/PersonalInfo';
 import FollowInfo from '../../followInfo/FollowInfo';
 import EditInfo from '../../editProfile/EditProfile';
-import PicturesHistory from '../../picturesHistory/PicturesHistory';
-export class HomeScreen extends Component {
+import ButtonChangeInfo from '../../ButtonChangeInfo/ButtonChangeInfo';
+import PicturesAlbum from '../../pictureAlbum/PicturesAlbum';
+import ProfileController from './ProfileController';
+
+class ProfileScreen extends Component {
+
+  componentDidMount() {
+    const profilecontroller = new ProfileController();
+    profilecontroller.getProfileFromAPI(1); 
+  }
   render() {
     return (
       <View style={profileStyles.container}>
-       <TitleName />
+        <TitleName />
         <View style={profileStyles.body}>
           <PersonalInfo />
-          <FollowInfo /> 
+          <FollowInfo />
           <View style={profileStyles.editButton}>
             <EditInfo />
-            <PicturesHistory />
+            <ButtonChangeInfo />
           </View>
         </View>
-        <View style={profileStyles.bottom}></View>
+        <PicturesAlbum />
       </View>
     );
   }
 }
 
-export default HomeScreen;
+export default ProfileScreen;

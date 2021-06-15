@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Image} from 'react-native';
+import { View, Image } from 'react-native';
 import stylesImage from './CircleImageStyle';
 
 const CicleImage = () => {
@@ -8,7 +8,7 @@ const CicleImage = () => {
       <Image
         style={stylesImage.circle}
         source={{
-          uri: 'https://upload.wikimedia.org/wikipedia/vi/b/b0/Avatar-Teaser-Poster.jpg',
+          uri: 'https://thumbs.dreamstime.com/z/bearded-man-s-face-hipster-character-fashion-silhouette-avata-bearded-man-s-face-hipster-character-fashion-silhouette-avatar-105106856.jpg',
         }}
       />
     </View>

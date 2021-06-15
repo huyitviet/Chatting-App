@@ -1,8 +1,12 @@
 import React, {Component} from 'react';
-import {Text, View} from 'react-native';
+import {Button, Text, View} from 'react-native';
+
 import CicleImage from '../../../common/components/circleImageComponent/CircleImage';
 export default class HomeScreen extends Component {
+  // đợi tý lm
+
   render() {
+    const {navigation} = this.props;
     return (
       <View
         style={{
@@ -11,6 +15,10 @@ export default class HomeScreen extends Component {
           justifyContent: 'center',
           alignItems: 'center',
         }}>
+        <Button
+          title="go to Profile"
+             onPress={() => navigation.navigate('ProfileScreen')}
+        />
         <Text> textInComponent </Text>
         <CicleImage />
       </View>

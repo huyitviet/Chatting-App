@@ -27,10 +27,7 @@ const editProfileStyles = StyleSheet.create({
     width: 20,
     backgroundColor: '#DA5AFA',
   },
-  titleStypeImage: {
-    color: 'black',
-    fontSize: 14,
-  },
+  
 
 
   

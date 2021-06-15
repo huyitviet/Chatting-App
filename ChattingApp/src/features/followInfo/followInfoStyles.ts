@@ -21,5 +21,8 @@ const followInfoStyle = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
   },
+  follower: {
+    color: '#6d788c',
+  },
 });
 export default followInfoStyle;

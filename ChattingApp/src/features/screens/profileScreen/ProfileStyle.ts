@@ -9,13 +9,7 @@ const profileStyles = StyleSheet.create({
     flex: 1,
     backgroundColor: Color.mainColor,
     alignItems: 'center',
-    paddingTop: 10,
     flexDirection: 'column',
-  },
-  bottom: {
-    flex: 1,
-    paddingTop: 20,
-    backgroundColor: Color.mainColor,
   },
   input: {
     height: 30,
@@ -29,15 +23,6 @@ const profileStyles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 20,
   },
-  // touchable2: {
-  //   height: 35,
-  //   width: 130,
-  //   backgroundColor: '#DA5AFA',
-  //   flexDirection: 'row',
-  //   alignItems: 'center',
-  //   justifyContent: 'center',
-  //   borderRadius: 5,
-  // },
   touchable3: {
     height: 28,
     width: 100,
@@ -57,7 +42,7 @@ const profileStyles = StyleSheet.create({
   },
 
   editButton: {
-    flex: 2,
+    flex: 3,
     backgroundColor: Color.mainColor,
   },
   editButton1: {
